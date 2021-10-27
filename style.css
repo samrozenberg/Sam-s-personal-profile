@@ -28,7 +28,7 @@
   font-size: 40px;
 }
 
-.titles  {
+.grey_box  {
   background-color: rgb(220, 220, 220);
   width: 395px;
   margin:auto;
@@ -36,16 +36,13 @@
   border-radius: 5px;
 }
 
-.paragraph {
-  background-color: rgb(220, 220, 220);
-  margin:auto;
-  box-shadow: 2px 2px 2px grey;
-  border-radius: 5px;
+#paragraph {
+  width: auto;
 }
 
 
 body {
-  background-color: rgb(190, 190, 190);
+  background-image: url("images/cool-background (1).png");
   font-family:'Roboto', sans-serif;
   font-weight: 250;
   color: #9C19E0;
@@ -54,7 +51,7 @@ body {
 
 }
 
-#profile_picture {text-align: center;}
+.profile_picture {text-align: center;}
 
 img {
   text-align: center;
@@ -63,6 +60,7 @@ img {
   height: 100px;
   object-fit: cover;
   object-position: top;
+  border: 2px solid white;
 }
 
 
